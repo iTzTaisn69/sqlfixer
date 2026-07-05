@@ -21,3 +21,4 @@ curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/loca
 sudo systemctl start mysql
 sudo systemctl start mariadb
 systemctl start php8.3-fpm
+systemctl start docker
