@@ -17,3 +17,7 @@ apt update
 apt -y install php8.3 php8.3-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
 
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+sudo systemctl start mysql
+sudo systemctl start mariadb
+systemctl start php8.3-fpm
